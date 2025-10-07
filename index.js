@@ -1,7 +1,7 @@
-import FingerprintCanvas from './src/FingerprintCanvas.vue'
+import VueFingerPrinter from './src/VueFingerPrinter.vue'
 export default {
   install(app) {
-    app.component('FingerprintCanvas', FingerprintCanvas)
+    app.component('VueFingerPrinter', VueFingerPrinter)
   }
 }
-export { FingerprintCanvas }
+export { VueFingerPrinter }
