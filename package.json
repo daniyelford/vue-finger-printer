@@ -2,8 +2,8 @@
   "name": "vue-finger-printer",
   "version": "1.0.0",
   "description": "Fingerprint drawing and sending component for Vue 3",
-   "main": "dist/VueFingerPrinter.umd.js",
-  "module": "dist/VueFingerPrinter.es.js",
+  "main": "dist/vue-finger-printer.umd.js",
+  "module": "dist/vue-finger-printer.es.js",
   "scripts": {
     "build": "vite build"
   },
@@ -19,13 +19,16 @@
   ],
   "author": "daniyalfrd",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/daniyelford/vue-fingerPrint/issues"
   },
   "homepage": "https://github.com/daniyelford/vue-fingerPrint#readme",
   "dependencies": {
-    "vite": "^7.1.9",
     "vue": "^3.5.22"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "vite": "^7.1.3"
   }
 }
