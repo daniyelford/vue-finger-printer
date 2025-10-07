@@ -23,8 +23,8 @@
 </template>
 
 <script setup>
-    import { sendApi } from '@/plugins/api'
     import { ref,onMounted } from 'vue'
+    import axios from 'axios';
     const canvas = ref(null)
     let ctx
     let drawing = false
@@ -73,12 +73,11 @@
         const imageData = canvas.value.toDataURL("image/png").split(',')[1]
         status.value = "در حال ارسال..."
         try {
-            const res = await sendApi({
-                url:'/user/fingerPrint',
+            const res = await axios(
+                'url_to_check',{
                 method: "POST",
                 headers: { "Content-Type": "text/plain" },
                 data: imageData,
-                autoCheckToken:false
             })
             status.value = "اثر انگشت ارسال شد ✅ کد: " + res
         } catch (err) {
