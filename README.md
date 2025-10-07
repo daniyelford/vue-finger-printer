@@ -25,7 +25,9 @@ app.use(VueFingerPrinter)
 app.mount('#app')
 
 ```
---- 
+
+---
+ 
 Then use the component anywhere in your Vue app:
 ```vue
 <template>
@@ -94,5 +96,7 @@ npm link vue-finger-printer
 
 Released under the ISC License.
 
-Built with ❤️ by @daniyelford
 ---
+
+Built with ❤️ by [daniyalfrd](https://github.com/daniyelford/vue-finger-printer)
+
