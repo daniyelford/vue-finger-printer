@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'index.js'),
       name: 'VueFingerPrinter',
-      fileName: (format) => `vue-fingerprint.${format}.js`
+      fileName: (format) => `vue-finger-printer.${format}.js`
     },
     rollupOptions: {
       external: ['vue'],
