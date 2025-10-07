@@ -1,0 +1,30 @@
+{
+  "name": "vue-fingerprint",
+  "version": "1.0.0",
+  "description": "Fingerprint drawing and sending component for Vue 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniyelford/vue-fingerPrint.git"
+  },
+  "keywords": [
+    "vue",
+    "fingerprint",
+    "canvas",
+    "component"
+  ],
+  "author": "daniyalfrd",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/daniyelford/vue-fingerPrint/issues"
+  },
+  "homepage": "https://github.com/daniyelford/vue-fingerPrint#readme",
+  "dependencies": {
+    "vite": "^7.1.9",
+    "vue": "^3.5.22"
+  }
+}
